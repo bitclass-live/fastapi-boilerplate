@@ -7,9 +7,14 @@ authors = ["AB <arjun@bitclass.live>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 fastapi = "^0.65.1"
+uvicorn = "^0.14.0"
+requests = "^2.25.1"
+gunicorn = "^20.1.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
+pytest-cov = "^2.12.1"
+pylint = "^2.8.3"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
