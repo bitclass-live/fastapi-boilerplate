@@ -11,23 +11,25 @@
   </p>
 </p>
 
-Initial Dependencies :
+
+### Initial Dependencies :
 1. Poetry -> https://python-poetry.org/docs/#installation
 
 
 ### Installation
-1.poetry install -  <For installing the dependencies>
+poetry install 
 
 ## Usage
 Virtual Environment
-# Activate :  poetry shell
-# Deactivate : exit
+- Activate :  poetry shell
+- Deactivate : exit
 
 To run the project
 1. poetry run uvicorn main:app --reload
 
-#API Docs -> /docs
+### API Docs 
+url : {hostname}/docs
 
-Guidelines :
+### Guidelines :
 Mandatory
 For Releases use Tags
